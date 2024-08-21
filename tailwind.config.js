@@ -7,12 +7,20 @@ export default {
   theme: {
     extend: {
       colors:{
-        primary:"#FF6363",
+        primary:{
+          'darkBlue' : "hsl(233, 26%, 24%)",
+          limeGreen: "hsl(136, 65%, 51%)",
+          brightCyan: "hsl(192, 70%, 51%)"
+        },
         secondary:{
           100 : "#E2E2D5",
           200 : "#888883",
         }
+      },
+      screens:{
+        'xs': '320px',
       }
+
     },
   },
   plugins: [],
