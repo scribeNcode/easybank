@@ -23,7 +23,11 @@ export default {
         'public-sans':['Public Sans', 'sans-serif'],
       },
       screens:{
-        'xs': '320px',
+        '2xs': '320px',
+        'xs' : '345px',
+        's'  : '375px',
+        'm'  : '425px'
+
       }
 
     },
