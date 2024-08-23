@@ -26,9 +26,13 @@ export default {
         '2xs': '320px',
         'xs' : '345px',
         's'  : '375px',
-        'm'  : '425px'
+        'm'  : '425px',
+        'tablet': '768px',
 
-      }
+      },
+      margin:{
+        'custom':"35rem",
+      },
 
     },
   },
